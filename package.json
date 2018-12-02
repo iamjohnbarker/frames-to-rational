@@ -1,0 +1,25 @@
+{
+	"name": "frames-to-rational",
+	"version": "1.0.0",
+	"description": "Convert frames to a rational number for use with FCPX",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iamjohnbarker/frames-to-rational.git"
+	},
+	"keywords": [
+		"frames",
+		"rational",
+		"number",
+		"fcpx"
+	],
+	"author": "John Barker",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/iamjohnbarker/frames-to-rational/issues"
+	},
+	"homepage": "https://github.com/iamjohnbarker/frames-to-rational#readme"
+}

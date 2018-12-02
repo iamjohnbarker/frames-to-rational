@@ -1,6 +1,6 @@
 # frames-to-rational
 
-Turn a frame count into a rational numer (for use with FCPX) - Learn more about FCPXml [on it's documentaion](https://developer.apple.com/library/archive/documentation/FinalCutProX/Reference/FinalCutProXXMLFormat/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011227-CH1-SW1).
+Turn a frame count into a rational numer (for use with FCPX) - Learn more about FCPXml [on it's documentation](https://developer.apple.com/library/archive/documentation/FinalCutProX/Reference/FinalCutProXXMLFormat/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011227-CH1-SW1).
 
 Instead of frames or timecode, FCPX will expect 1 frame of 25fps video - for example - to look like this:
 

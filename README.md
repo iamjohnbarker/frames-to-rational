@@ -2,7 +2,15 @@
 
 Turn a frame count into a rational numer (for use with FCPX) - Learn more about FCPXml [on it's documentaion](https://developer.apple.com/library/archive/documentation/FinalCutProX/Reference/FinalCutProXXMLFormat/Introduction/Introduction.html#//apple_ref/doc/uid/TP40011227-CH1-SW1).
 
-Allows conversion to any of the following freame rates.
+Instead of frames or timecode, FCPX will expect 1 frame of 25fps video - for example - to look like this:
+
+```bash
+100/2500s
+```
+
+This module will take in a frame count and frame rate, then spit out the rational number.
+
+Allows conversion to any of the following frame rates.
 * 23.98
 * 24
 * 25
